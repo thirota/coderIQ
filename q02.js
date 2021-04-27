@@ -6,7 +6,7 @@ function reverseStr(num) {
 }
 
 function check(num, target) {
-    // 反転した数字が1000未満のときは対象外とする？問題からは読み取れず
+    //反転した数字が1000未満のときは対象外とする？問題からは読み取れず・・・
     if (target < 1000) {
         return false;
     }
