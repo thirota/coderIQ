@@ -11,7 +11,7 @@ let date = new Date(1964, 10, 10);
 
 while (true) {
 
-    if (date.getFullYear() === 2020 && (date.getMonth() + 1) === 7 && (date.getDate() - 1) === 24) {
+    if (date.getFullYear() === 2020 && (date.getMonth() + 1) === 7 && date.getDate() === 25) {
         break;
     }
 
