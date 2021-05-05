@@ -8,6 +8,7 @@ function check(remain, pre) {
     if (remain < 0) return 0;
     
     // XXX なぜ 1 を返却している？
+    // 100人全員の配置が終了＝1パターン完成したから？
     if (remain === 0) return 1;
 
     let cnt = 0;
